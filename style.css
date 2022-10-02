@@ -199,9 +199,22 @@ div.slogan .textbox .slogan_text {
 .sliders .wrapper .item {
   height: 150px;
   margin: 0 10px;
+  position: relative;
 }
 .sliders .wrapper .item img {
   height: 100%;
+}
+.sliders .wrapper .item .desq {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(10, 19, 77, 0.062745098);
+}
+.sliders .wrapper .item h3 {
+  text-align: center;
+  font-size: 16px;
+  color: #333;
 }
 
 section.map {

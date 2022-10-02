@@ -214,8 +214,21 @@ div.slogan{
         .item{
             height: 150px;
             margin: 0 10px;
+            position: relative;
             img{
             height: 100%;
+            }
+            .desq{
+                position: absolute;
+                height: 100%;
+                top: 0;
+                left: 0;
+                background-color: #0A134D10;
+            }
+            h3{
+                text-align: center;
+                font-size: 16px;
+                color: #333;
             }
        }
     }
