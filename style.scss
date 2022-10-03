@@ -595,29 +595,34 @@ ul.course_nav{
             padding: 10px 0;
             font-size: 18px;
             width: 100%;
-            color: $main2;  
+            color: #333;  
             transition: .5s;
-            background-color: $main5;   
+            background-color: $main2;   
             border: 1px solid $main5;
             border-radius: 30px ;
         }
-        .all_btn{
-            background-color: $main5;
-        }
-        .sca_btn{
-            background-color: $main2;
-            color: #333;
-        }
-        .ot_btn{
-            background-color: $main2;
-            color: #333;
-        }
+       
+        // .all_btn{
+        //     background-color: $main5;
+        // }
+        // .sca_btn{
+        //     background-color: $main2;
+        //     color: #333;
+        // }
+        // .ot_btn{
+        //     background-color: $main2;
+        //     color: #333;
+        // }
         .btn:hover{
             background-color: $main5;
             color: $main2;
             transform: scale(0.9);
             border: none;
         }
+    }
+    a.tab{
+        background-color: $main5;
+        color: $main2;
     }
 
 }
@@ -2471,7 +2476,7 @@ section.tea{
             padding: 20px 0;
         }
         .item:nth-child(-n + 3){
-            background-color: $main3;
+            background-color: $main5;
             color: $main2;
             padding: 10px 0;
             font-size: 20px;
@@ -2567,7 +2572,7 @@ section.tea{
             // border: 1px solid red;
         }
         .item:nth-child(-n + 2){
-            border-top: $main3 solid 3px;
+            border-top: $main5 solid 3px;
         }
         .item:nth-child(2n){
             p{

@@ -561,28 +561,21 @@ ul.course_nav li .btn {
   padding: 10px 0;
   font-size: 18px;
   width: 100%;
-  color: #fff;
+  color: #333;
   transition: 0.5s;
-  background-color: #607EAA;
+  background-color: #fff;
   border: 1px solid #607EAA;
   border-radius: 30px;
-}
-ul.course_nav li .all_btn {
-  background-color: #607EAA;
-}
-ul.course_nav li .sca_btn {
-  background-color: #fff;
-  color: #333;
-}
-ul.course_nav li .ot_btn {
-  background-color: #fff;
-  color: #333;
 }
 ul.course_nav li .btn:hover {
   background-color: #607EAA;
   color: #fff;
   transform: scale(0.9);
   border: none;
+}
+ul.course_nav a.tab {
+  background-color: #607EAA;
+  color: #fff;
 }
 
 section.course_offer {
@@ -2263,7 +2256,7 @@ section.tea {
   padding: 20px 0;
 }
 .shopping_cart .wrap .item:nth-child(-n+3) {
-  background-color: #E77710;
+  background-color: #607EAA;
   color: #fff;
   padding: 10px 0;
   font-size: 20px;
@@ -2348,7 +2341,7 @@ section.tea {
   padding: 10px 0;
 }
 .shopping_cart .sum .item:nth-child(-n+2) {
-  border-top: #E77710 solid 3px;
+  border-top: #607EAA solid 3px;
 }
 .shopping_cart .sum .item:nth-child(2n) p {
   text-align: right;

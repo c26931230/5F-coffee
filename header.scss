@@ -41,6 +41,17 @@ $main7:#1474C5;
                     width: 100%;
                 }
     }
+    li.tab{
+        :after{
+            content: '';
+                width: 100%;
+                height: 2px;
+                background: $main4;
+                display: block;
+                margin: auto;
+                // transition: 0.5s;
+        }
+    }
     a{
         color: $main2;
         text-decoration: none;
@@ -68,6 +79,10 @@ $main7:#1474C5;
             transition: 1s;
         }
         
+    }
+    a.tab{
+        color: $main4;
+        opacity: 1;
     }
 }
 // phone

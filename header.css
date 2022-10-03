@@ -33,6 +33,14 @@
 .nav li :hover::after {
   width: 100%;
 }
+.nav li.tab :after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background: #F1D00A;
+  display: block;
+  margin: auto;
+}
 .nav a {
   color: #fff;
   text-decoration: none;
@@ -60,6 +68,10 @@
   color: #F1D00A;
   opacity: 1;
   transition: 1s;
+}
+.function_box a.tab {
+  color: #F1D00A;
+  opacity: 1;
 }
 
 @media screen and (max-width: 767px) {
